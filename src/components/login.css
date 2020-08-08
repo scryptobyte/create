@@ -1,0 +1,101 @@
+#body {
+    height: 100%;
+    width: 100%;
+    border: 1px solid green;
+    overflow: auto;
+}
+
+#left {
+    border: 1px solid green;
+    width: 40%;
+
+}
+
+#right {
+    border: 1px solid black;
+    width: 60%;
+}
+
+#left, #right {
+    float: left;
+    height: 100%;
+}
+
+#authBox {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 80%;
+    padding: 10%;
+    margin-top: 10%;
+    top: 50%;
+    border: 1px solid green;
+}
+
+#form {
+    border: 1px solid black;
+    margin-top: 25%;
+    padding: 10%;
+}
+
+#formHeader {
+    border: 1px solid grey;
+}
+
+.form-label {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    text-transform: capitalize;
+
+    color: #252525;
+
+    flex: none;
+    order: 0;
+    align-self: flex-start;
+    margin: 0px 5px;
+}
+
+.btn-style {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: red;
+    flex: none;
+    align-self: center;
+}
+
+.btn-label {
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.left-align {
+    float: left;
+}
+
+.right-align {
+    float: right
+}
+
+#passwordForgot {
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    text-transform: uppercase;
+
+    color: #3B7FAD;
+}
